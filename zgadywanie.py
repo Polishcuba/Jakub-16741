@@ -9,8 +9,7 @@ def gra():
         answer = int(input())
         if answer == number:
             score+=1
-            print("Brawo!!!")
-            print("Wylosowałem dla ciebie kolejną liczbę.")
+            print("Brawo!!! \n Wylosowałem dla ciebie kolejną liczbę.")
             number = random.randint(0, 9)
         elif answer < number:
             life-=1
